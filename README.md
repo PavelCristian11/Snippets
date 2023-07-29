@@ -27,20 +27,3 @@ pip install -r requirements.txt
 In this sample project, a simple web application was developed to filter the books based on author name and publish year.
 
 
-## 3. Features
-
-1. ModelForm -> Booking;
-2. Model -> Menu;
-3. APIs:
-```
-menu/
-menu/<int:pk>
-bookings/
-```
-4. Tests -> model and view tests;
-
-## 4. Future developments
-
-1. Split the Menu model into 2 models: Course(Starter, Main and Dessert) and Dish. Update the Menu page and the menu API endpoint to reflect this change;
-2. Reservation page to be available only to the owner and staff of the restaurant;
-
