@@ -8,6 +8,7 @@ Table of Contents
 1. Installation
 2. Projects
    1. Dropdown menu
+   2. Run script
 
 
 ## 1. Installation
@@ -26,4 +27,7 @@ pip install -r requirements.txt
 
 In this sample project, a simple web application was developed to filter the books based on author name and publish year.
 
+### 2.2. Run script
+
+Goal of this project was to implement a simple web interface where the user inserts a UK number plate and on the server side a script runs to get the make, model and year. The result is returned to the user using JS
 
