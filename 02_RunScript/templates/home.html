@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<div class="container-sm border my-3 shadow-sm p-3 mb-5 bg-body rounded">
+  <div class="row m-3 align-items-start">
+    <div class="col-3">
+
+      <input type="text" class="form-control mb-2" id="regField" placeholder="Insert number plate">
+      <input type="submit" value="Submit" id="submit">
+    </div>
+  </div>
+  <!--  -->
+  <div class="row m-3 align-items-center">
+    <div class="col-lg-4 ">
+      <div class="row">
+        <div class="col-3 border">
+          <p class="text-center m-2">Model</p>
+        </div>
+        <div class="col">
+          <p class="text-center m-2 font-monospace fw-bolder" id="model"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 ">
+      <div class="row">
+        <div class="col-3 border">
+          <p class="text-center m-2">Make</p>
+        </div>
+        <div class="col">
+          <p class="text-center m-2 font-monospace fw-bolder" id="make"></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 ">
+      <div class="row">
+        <div class="col-3 border">
+          <p class="text-center m-2">Year</p>
+        </div>
+        <div class="col">
+          <p class="text-center m-2 font-monospace fw-bolder" id="year"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</div>
+{% endblock %}
